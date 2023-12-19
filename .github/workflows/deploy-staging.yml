@@ -32,7 +32,7 @@ jobs:
         with:
           name: webpack artifacts
           path: public/
-
+          
   Build-Docker-Image:
     runs-on: ubuntu-latest
     needs: build
